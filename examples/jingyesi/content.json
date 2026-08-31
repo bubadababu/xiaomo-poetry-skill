@@ -1,0 +1,85 @@
+{
+  "schema_version": "0.1.0",
+  "slug": "jingyesi",
+  "title": "静夜思",
+  "author": "李白",
+  "dynasty": "唐",
+  "genre": "五言绝句",
+  "full_text": [
+    "床前明月光，",
+    "疑是地上霜。",
+    "举头望明月，",
+    "低头思故乡。"
+  ],
+  "source_note": {
+    "version": "常见现行教材版本",
+    "source": "",
+    "status": "verified",
+    "warnings": ["历史文献中存在“床前看月光”等异文；本例采用常见现行教材版本。"]
+  },
+  "page1": {
+    "theme": "旅居夜晚，清冷月光洒入室内，如霜一般铺在地面，窗外月色宁静",
+    "display_text": {"title": "静夜思", "byline": "唐 · 李白"},
+    "visual_prompt": "",
+    "layout_variant": "cover-right-text"
+  },
+  "page2": {
+    "poet_intro": {
+      "name": "李白",
+      "identity": "盛唐诗人，后人称他为“诗仙”，是中国古代最有影响力的诗人之一。",
+      "style": "想象丰富，语言自然明快，常把真切情感写得开阔而有画面。",
+      "poem_relation": "这首诗不用华丽词语，只用抬头、低头两个动作写出月夜思乡。"
+    },
+    "background": {
+      "scene": "这首诗的具体写作时间和地点存在不同说法，不宜强行确定。诗中可确认的场景，是诗人在安静夜晚看到明亮月光。",
+      "situation": "诗人身在异乡，夜深人静时独自面对月色；清冷的月光使他联想到地上的霜。",
+      "reason": "抬头看见明月后，诗人自然想起远方故乡，于是把瞬间的所见、动作和心情写成短诗。",
+      "emotion": "表达客居异乡时安静而深切的思乡之情。",
+      "certainty": "medium"
+    },
+    "visual_prompt": "",
+    "layout_variant": "two-column"
+  },
+  "page3": {
+    "pinyin_items": [
+      {"word": "疑", "pinyin": "yí", "note": "怀疑、以为。"},
+      {"word": "霜", "pinyin": "shuāng", "note": "低温时凝结的白色冰晶。"},
+      {"word": "举头", "pinyin": "jǔ tóu", "note": "抬起头。"},
+      {"word": "故乡", "pinyin": "gù xiāng", "note": "出生或长期生活过的家乡。"}
+    ],
+    "keyword_items": [
+      {"word": "疑是", "meaning": "以为是、好像是。", "context_note": "写月光明亮洁白。"},
+      {"word": "举头", "meaning": "抬头。", "context_note": "由地面的月光转向天空的明月。"},
+      {"word": "低头", "meaning": "把头低下来。", "context_note": "动作转静，心思回到故乡。"},
+      {"word": "故乡", "meaning": "自己的家乡。", "context_note": "点明全诗的思念对象。"}
+    ],
+    "visual_prompt": "",
+    "layout_variant": "words-split"
+  },
+  "page4": {
+    "line_explanations": [
+      {"line": "床前明月光，", "explanation": "明亮的月光照到床前，静静铺在地面上。", "image_or_emotion": "先写所见，营造安静清冷的夜色。"},
+      {"line": "疑是地上霜。", "explanation": "诗人一时以为，地面上铺着一层白霜。", "image_or_emotion": "把洁白月光和寒霜联系起来，增添清冷感。"},
+      {"line": "举头望明月，", "explanation": "他抬起头，看见天空中高悬的明月。", "image_or_emotion": "“举头”把视线从室内引向远方。"},
+      {"line": "低头思故乡。", "explanation": "他低下头，想起了远方的家乡。", "image_or_emotion": "一个简单动作收住画面，也点明思乡主题。"}
+    ],
+    "summary": "诗人先看到地上的月光，再抬头望月，最后低头思乡。短短四句把眼前月色、人物动作和内心思念自然连在一起。",
+    "visual_prompt": "",
+    "layout_variant": "line-by-line"
+  },
+  "visual_style": {
+    "direction": "电影感国风学习图",
+    "aspect_ratio": "16:9",
+    "palette": ["#152335", "#40566E", "#D9D2B6"],
+    "shared_elements": ["清冷月色", "室内外层次", "半透明深色信息面板"],
+    "typography": {"title": "中文楷体风格", "body": "高可读中文黑体"},
+    "series_id": "jingyesi"
+  },
+  "difficulty_level": {"grade": "一年级", "reading_level": "小学", "text_density": "light"},
+  "review_note": {
+    "status": "ready",
+    "content_warnings": ["历史文献存在异文，示例采用常见现行教材版本。"],
+    "version_confirmation_required": false,
+    "manual_review_items": []
+  }
+}

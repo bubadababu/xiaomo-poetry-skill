@@ -1,0 +1,18 @@
+{
+  "name": "cinematic-guofeng",
+  "canvas": [1920, 1080],
+  "safe_margin": 72,
+  "panel": {
+    "radius": 30,
+    "fill_alpha": 205,
+    "stroke_alpha": 55
+  },
+  "typography": {
+    "title": 76,
+    "subtitle": 32,
+    "section": 38,
+    "body": 32,
+    "small": 27
+  },
+  "notes": "Fonts are resolved from the host system; no commercial font is bundled."
+}

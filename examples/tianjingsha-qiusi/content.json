@@ -1,0 +1,87 @@
+{
+  "schema_version": "0.1.0",
+  "slug": "tianjingsha-qiusi",
+  "title": "天净沙·秋思",
+  "author": "马致远",
+  "dynasty": "元",
+  "genre": "散曲",
+  "full_text": [
+    "枯藤老树昏鸦，",
+    "小桥流水人家，",
+    "古道西风瘦马。",
+    "夕阳西下，",
+    "断肠人在天涯。"
+  ],
+  "source_note": {
+    "version": "常见现行教材版本",
+    "source": "",
+    "status": "verified",
+    "warnings": []
+  },
+  "page1": {
+    "theme": "深秋黄昏，枯藤老树与古道瘦马交织，远处小桥流水人家带着微暖灯火",
+    "display_text": {"title": "天净沙·秋思", "byline": "元 · 马致远"},
+    "visual_prompt": "",
+    "layout_variant": "cover-right-text"
+  },
+  "page2": {
+    "poet_intro": {
+      "name": "马致远",
+      "identity": "元代著名杂剧家、散曲家，是“元曲四大家”之一。",
+      "style": "语言凝练自然，善于用少量景物营造深远意境，抒写人生感慨。",
+      "poem_relation": "这首小令连续排列多组秋日意象，用极少文字勾勒出完整的羁旅画面。"
+    },
+    "background": {
+      "scene": "具体创作时间和地点缺乏确切记载。作品写一名远行者在深秋黄昏走过荒凉古道，眼前同时出现枯败景物和温暖人家。",
+      "situation": "夕阳将落，旅人骑着瘦马仍在天涯漂泊；别人家的安稳生活更衬出他的孤单。",
+      "reason": "一路所见触发了羁旅者的愁绪，诗人把藤、树、鸦、桥、水、古道等意象压缩在短短五句中。",
+      "emotion": "表达漂泊在外的孤独、疲惫和思乡之愁。",
+      "certainty": "medium"
+    },
+    "visual_prompt": "",
+    "layout_variant": "two-column"
+  },
+  "page3": {
+    "pinyin_items": [
+      {"word": "枯藤", "pinyin": "kū téng", "note": "枯萎的藤蔓。"},
+      {"word": "昏鸦", "pinyin": "hūn yā", "note": "黄昏时归巢的乌鸦。"},
+      {"word": "瘦马", "pinyin": "shòu mǎ", "note": "瘦弱疲惫的马。"},
+      {"word": "天涯", "pinyin": "tiān yá", "note": "离家极远的地方。"}
+    ],
+    "keyword_items": [
+      {"word": "昏鸦", "meaning": "黄昏时栖息或归巢的乌鸦。", "context_note": "“昏”同时点明时间。"},
+      {"word": "古道", "meaning": "古老、荒凉的道路。", "context_note": "是旅人正在行走的路。"},
+      {"word": "西风", "meaning": "秋风。", "context_note": "带来深秋的寒意。"},
+      {"word": "断肠人", "meaning": "因极度悲伤而愁苦的人。", "context_note": "这里指漂泊思乡的旅人。"}
+    ],
+    "visual_prompt": "",
+    "layout_variant": "words-split"
+  },
+  "page4": {
+    "line_explanations": [
+      {"line": "枯藤老树昏鸦，", "explanation": "枯藤缠着老树，黄昏时乌鸦落在枝头。", "image_or_emotion": "衰败、昏暗的景物先定下凄清基调。"},
+      {"line": "小桥流水人家，", "explanation": "不远处有小桥、流水和有人居住的房屋。", "image_or_emotion": "温暖安静的人家反衬旅人无家可归。"},
+      {"line": "古道西风瘦马。", "explanation": "秋风吹过古老道路，一匹瘦马驮着旅人缓慢前行。", "image_or_emotion": "路、风和瘦马写出旅途的漫长疲惫。"},
+      {"line": "夕阳西下，", "explanation": "太阳正向西边落下，天色越来越晚。", "image_or_emotion": "时间推向夜晚，让漂泊处境更显迫切。"},
+      {"line": "断肠人在天涯。", "explanation": "极度悲伤的旅人仍漂泊在远离家乡的地方。", "image_or_emotion": "最后点明人物，把前面的景物都汇成思乡愁绪。"}
+    ],
+    "summary": "全曲先列出旅人眼中的九种景物，再用夕阳和“断肠人”点明时间与心情。安稳的人家和漂泊的旅人形成对照，使思乡之愁更加深切。",
+    "visual_prompt": "",
+    "layout_variant": "line-by-line"
+  },
+  "visual_style": {
+    "direction": "电影感国风学习图",
+    "aspect_ratio": "16:9",
+    "palette": ["#17232A", "#6F4B3A", "#D69A54"],
+    "shared_elements": ["深秋薄雾", "夕阳余光", "半透明深色信息面板"],
+    "typography": {"title": "中文楷体风格", "body": "高可读中文黑体"},
+    "series_id": "tianjingsha-qiusi"
+  },
+  "difficulty_level": {"grade": "七年级", "reading_level": "小学高年级至初中", "text_density": "medium"},
+  "review_note": {
+    "status": "ready",
+    "content_warnings": ["具体创作时间和地点缺乏确切记载，背景采用审慎表述。"],
+    "version_confirmation_required": false,
+    "manual_review_items": []
+  }
+}

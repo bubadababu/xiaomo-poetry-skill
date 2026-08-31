@@ -1,0 +1,7 @@
+interface:
+  display_name: "古诗防死记硬背"
+  short_description: "输入一首古诗，直接生成四张先理解再记忆的横版学习图"
+  brand_color: "#8A3B2E"
+  default_prompt: "使用 $xiaomo-poetry-skill 为《山行》生成四张古诗学习图。"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,88 @@
+{
+  "schema_version": "0.1.0",
+  "slug": "shanxing",
+  "title": "山行",
+  "author": "杜牧",
+  "dynasty": "唐",
+  "genre": "七言绝句",
+  "full_text": [
+    "远上寒山石径斜，",
+    "白云生处有人家。",
+    "停车坐爱枫林晚，",
+    "霜叶红于二月花。"
+  ],
+  "source_note": {
+    "version": "常见现行教材版本",
+    "source": "",
+    "status": "verified",
+    "warnings": []
+  },
+  "page1": {
+    "theme": "深秋山路蜿蜒而上，白云深处隐约有人家，夕照把枫林染得明亮热烈",
+    "display_text": {
+      "title": "山行",
+      "byline": "唐 · 杜牧"
+    },
+    "visual_prompt": "",
+    "layout_variant": "cover-right-text"
+  },
+  "page2": {
+    "poet_intro": {
+      "name": "杜牧",
+      "identity": "晚唐诗人，擅长诗、赋和古文，与李商隐并称“小李杜”。",
+      "style": "诗歌语言俊朗明快，善于用简洁画面写出鲜明情绪。",
+      "poem_relation": "这首诗抓住山路、白云、枫林和霜叶，用明丽色彩表现秋山之美。"
+    },
+    "background": {
+      "scene": "具体写作时间和地点没有确切记载。诗中呈现的是一次深秋山行：石路伸向山上，白云深处可见人家，近处枫林正红。",
+      "situation": "诗人行进在山路上，被傍晚的枫林吸引，于是停下车仔细观赏。",
+      "reason": "眼前秋景并不萧瑟，霜后的枫叶反而比春花更加红艳，诗人因此写下赞叹。",
+      "emotion": "表达诗人对深秋山林的喜爱，也表现出明朗、昂扬的审美感受。",
+      "certainty": "medium"
+    },
+    "visual_prompt": "",
+    "layout_variant": "two-column"
+  },
+  "page3": {
+    "pinyin_items": [
+      {"word": "径", "pinyin": "jìng", "note": "小路，这里指山间石路。"},
+      {"word": "斜", "pinyin": "xié", "note": "按现代普通话读音朗读。"},
+      {"word": "坐", "pinyin": "zuò", "note": "这里不是“坐下”，而是“因为”。"},
+      {"word": "霜", "pinyin": "shuāng", "note": "天气寒冷时凝结的白色冰晶。"}
+    ],
+    "keyword_items": [
+      {"word": "寒山", "meaning": "深秋时节带有寒意的山。", "context_note": "点明季节和环境。"},
+      {"word": "生处", "meaning": "白云形成、升起的地方。", "context_note": "写出山高云深。"},
+      {"word": "坐爱", "meaning": "因为喜爱。", "context_note": "说明诗人停车的原因。"},
+      {"word": "红于", "meaning": "比……还要红。", "context_note": "“于”在这里表示比较。"}
+    ],
+    "visual_prompt": "",
+    "layout_variant": "words-split"
+  },
+  "page4": {
+    "line_explanations": [
+      {"line": "远上寒山石径斜，", "explanation": "一条石头小路弯弯曲曲，向深秋的山上远远伸去。", "image_or_emotion": "视线沿山路向上，画面有纵深感。"},
+      {"line": "白云生处有人家。", "explanation": "在白云升起的高处，隐约还能看见几户人家。", "image_or_emotion": "云中人家让山景显得幽静，又有生活气息。"},
+      {"line": "停车坐爱枫林晚，", "explanation": "诗人因为喜爱傍晚的枫林，特意停下车来观赏。", "image_or_emotion": "“停车”写出喜爱不是一句空话，而是具体行动。"},
+      {"line": "霜叶红于二月花。", "explanation": "经霜的枫叶比早春二月的鲜花还要红艳。", "image_or_emotion": "用比较突出秋色的热烈明亮。"}
+    ],
+    "summary": "诗人沿山路远望，又为眼前枫林停留。全诗由远到近，把深秋写得明丽而有生机，表达了对秋山景色的真心喜爱。",
+    "visual_prompt": "",
+    "layout_variant": "line-by-line"
+  },
+  "visual_style": {
+    "direction": "电影感国风学习图",
+    "aspect_ratio": "16:9",
+    "palette": ["#25313A", "#8F3E2F", "#E4B86A"],
+    "shared_elements": ["薄雾山影", "暖色夕照", "半透明深色信息面板"],
+    "typography": {"title": "中文楷体风格", "body": "高可读中文黑体"},
+    "series_id": "shanxing"
+  },
+  "difficulty_level": {"grade": "三年级", "reading_level": "小学", "text_density": "medium"},
+  "review_note": {
+    "status": "ready",
+    "content_warnings": [],
+    "version_confirmation_required": false,
+    "manual_review_items": []
+  }
+}
