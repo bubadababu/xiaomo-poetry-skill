@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="小墨古诗四图工作流跨平台加载入口">
+  <title>小墨古诗四图工作流</title>
+  <style>
+    :root { color-scheme: light; --ink:#28241f; --paper:#f7f1e4; --red:#9b3a2b; --line:#d9cbb6; }
+    * { box-sizing: border-box; }
+    body { margin:0; color:var(--ink); background:linear-gradient(135deg,#ece2d0,#faf7ef); font-family:"Microsoft YaHei","Noto Sans SC",sans-serif; }
+    main { width:min(880px,calc(100% - 32px)); margin:48px auto; padding:clamp(24px,5vw,56px); background:rgba(255,255,255,.82); border:1px solid var(--line); border-radius:24px; box-shadow:0 20px 60px rgba(55,42,25,.12); }
+    h1 { margin:0 0 12px; font-family:"STKaiti","KaiTi",serif; font-size:clamp(32px,6vw,56px); }
+    .lead { font-size:18px; line-height:1.8; }
+    .card { margin:28px 0; padding:20px; background:var(--paper); border-left:5px solid var(--red); border-radius:12px; }
+    button,a.button { display:inline-block; margin:8px 8px 8px 0; padding:13px 20px; border:0; border-radius:999px; color:white; background:var(--red); font:inherit; font-weight:700; cursor:pointer; text-decoration:none; }
+    a.button.secondary { color:var(--ink); background:#e7dac6; }
+    code { word-break:break-all; }
+    #status { min-height:1.5em; color:#675a49; }
+    footer { margin-top:36px; color:#756957; font-size:14px; line-height:1.7; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>小墨古诗四图工作流</h1>
+    <p class="lead">输入一首古诗，按“先理解，再记忆”的固定结构生成四张横版学习图。</p>
+
+    <section class="card">
+      <strong>最省事的用法</strong>
+      <p>把完整工作流复制给任意 AI。能生成图片的平台会直接制作四图；能力不足的平台必须明确说明限制。</p>
+      <button id="copyFull">复制完整工作流</button>
+      <button id="copyLink">只复制加载链接</button>
+      <a class="button secondary" href="xiaomo-poetry-universal.md">查看完整内容</a>
+      <p id="status" role="status" aria-live="polite"></p>
+    </section>
+
+    <p>也可以直接把下面这段话发送给能够访问网页的 AI：</p>
+    <div class="card"><code id="loadText">请读取并严格执行这个古诗四图工作流；读取成功后直接询问我要制作哪首诗：https://bubadababu.github.io/xiaomo-poetry-skill/xiaomo-poetry-universal.md</code></div>
+
+    <footer>说明：不同 AI 平台没有统一的永久安装协议。本页提供的是跨平台加载入口；Codex 用户仍可通过仓库中的原生 Skill 安装。</footer>
+  </main>
+  <script>
+    const workflowUrl = new URL('xiaomo-poetry-universal.md', location.href).href;
+    const status = document.querySelector('#status');
+    async function copy(text, success) {
+      await navigator.clipboard.writeText(text);
+      status.textContent = success;
+    }
+    document.querySelector('#copyLink').addEventListener('click', async () => {
+      const text = `请读取并严格执行这个古诗四图工作流；读取成功后直接询问我要制作哪首诗：${workflowUrl}`;
+      try { await copy(text, '加载链接已复制。'); } catch { status.textContent = '复制失败，请手动复制页面中的文字。'; }
+    });
+    document.querySelector('#copyFull').addEventListener('click', async () => {
+      status.textContent = '正在读取完整工作流…';
+      try {
+        const response = await fetch(workflowUrl);
+        if (!response.ok) throw new Error('load failed');
+        await copy(await response.text(), '完整工作流已复制，可以粘贴给任意 AI。');
+      } catch { status.textContent = '读取失败，请点击“查看完整内容”后手动复制。'; }
+    });
+  </script>
+</body>
+</html>
